@@ -12,9 +12,9 @@ def main(page: ft.Page) -> None:
         task_models_data = [json.loads(line) for line in lines]
 
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
-    todo_app_1 = TodoApp(task_models_data=task_models_data)
+    todo_app = TodoApp(task_models_data=task_models_data)
 
-    page.add(todo_app_1)
+    page.add(todo_app)
 
 
 ft.app(target=main, view=ft.FLET_APP)
