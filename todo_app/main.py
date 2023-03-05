@@ -2,8 +2,8 @@ import json
 
 import flet as ft
 
-from todo_app.todo_app.custom_controls import TodoApp
-from todo_app.todo_app.settings import TASKS_FILE
+from todo_app.custom_controls import TodoApp
+from todo_app.settings import TASKS_FILE
 
 
 def main(page: ft.Page) -> None:
