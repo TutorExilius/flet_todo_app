@@ -2,8 +2,8 @@ from typing import Any
 
 import flet as ft
 
-from todo_app.todo_app.models import TaskModel
-from todo_app.todo_app.settings import TASKS_FILE
+from todo_app.models import TaskModel
+from todo_app.settings import TASKS_FILE
 
 
 class TaskControl(ft.UserControl):
